@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5174",
+  origin: "https://user-blog-client.vercel.app/",
   credentials: true,
 };
 
