@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://user-blog-client-6bbnicb53-ajmal9656s-projects.vercel.app",
+  origin: ["https://user-blog-client-6bbnicb53-ajmal9656s-projects.vercel.app","https://user-blog-client.vercel.app"],
   credentials: true,
 };
 
